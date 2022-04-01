@@ -114,5 +114,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias brew='arch -x86_64 brew'
+alias vim='nvim'
 alias limpiarbackups='tmutil  listlocalsnapshotdates / |grep 20|while read f; do tmutil deletelocalsnapshots $f; done'
 export PATH="/usr/local/Cellar/php@7.4/7.4.27/bin:$PATH"
