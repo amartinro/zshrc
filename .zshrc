@@ -118,3 +118,7 @@ alias vim='nvim'
 alias python='python3'
 alias limpiarbackups='tmutil  listlocalsnapshotdates / |grep 20|while read f; do tmutil deletelocalsnapshots $f; done'
 export PATH="/usr/local/Cellar/php@7.4/7.4.28_1/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+neofetch
